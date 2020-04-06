@@ -10,11 +10,16 @@ import L from "leaflet";
 import { hasGeolocation, getCurrentPosition } from "../geolocation";
 import { states as geoCountryStates, FederalState } from "../data/geo_de";
 import { PostCodeAreas } from './PostCodeAreas';
-import MapboxGLLayer from './MapboxGLLayer';
+/*import MapboxGLLayer from './MapboxGLLayer';*/
 
 import { Map } from './mapbox/Map'
 import { Source } from './mapbox/Source'
+import { CovMapp } from './mapbox/ReactMap'
 
+export const CovMap = CovMapp
+
+
+/*
 function areaQueryFromBounds(bounds): MapArea {
   const center = bounds.getCenter();
   const northEast = bounds.getNorthEast();
@@ -146,3 +151,4 @@ export const CovMap = withSnackbar(({ enqueueSnackbar, closeSnackbar }) => {
     </>
   );
 });
+*/

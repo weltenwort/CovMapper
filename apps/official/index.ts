@@ -7,6 +7,7 @@ import { Imprint } from "./components/pages/Imprint"
 import { CovMapFeatureInfo } from "./components/CovMapFeatureInfo"
 import { CovMapWelcome } from './components/CovMapWelcome'
 import { Questions } from './components/pages/Questions'
+import { Charts } from './components/pages/Charts'
 
 const CovMapMappables = [{
   property: 'cases_per_population_norm',
@@ -59,6 +60,11 @@ export const config: AppConfig = {
       title: 'Symptome erfassen',
       route: '/questions',
       Component: Questions
+    }, {
+      id: 'charts',
+      title: 'Deutschlandweite Graphen',
+      route: '/charts',
+      Component: Charts
     },
     ]
   },

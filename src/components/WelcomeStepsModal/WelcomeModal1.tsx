@@ -35,12 +35,6 @@ export const WelcomeModal1: React.FC = () => {
         <div className={classes.listItemDiv}>
           {listIcon}
           <Typography className={classes.largeText}>
-            Entwickelt von Ärzten der Charité - Universitätsmedizin Berlin
-          </Typography>
-        </div>
-        <div className={classes.listItemDiv}>
-          {listIcon}
-          <Typography className={classes.largeText}>
             Regionale Risikoeinschätzung zum Coronavirus in Echtzeit
           </Typography>
         </div>
